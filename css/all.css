@@ -157,6 +157,7 @@ ul{
 
 .sideBarUl li:hover{
 	cursor:pointer;
+	color:#fff;
 	background-image:url(../images/sideLiBGHover.png);
 }
 
