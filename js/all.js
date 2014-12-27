@@ -395,7 +395,7 @@ function bindButtons(){
 		animateFooterGraph(this);
 	});
 	
-	/*$(document).keyup(function(e){
+	(document).keyup(function(e){
 	  if (e.keyCode == 27) {
 		  $(".welcomeRing3").stop(true,true);
 		  $(".welcomeRing2").stop(true,true);
@@ -407,13 +407,13 @@ function bindButtons(){
 		  $(".fauxBody").css({'background-image':bgArr[0]});
 		  animateBGRings();
 	  }   // esc
-	});*/
+	});
 	talkBack("Begin");
 }
 
-/*if (!('webkitSpeechRecognition' in window)) {
-	alert("whoops!");
-}*/
+if (!('webkitSpeechRecognition' in window)) {
+	alert("Your browser doesn't support this. Sowie!");
+}
 
 function talkBack(message){
 	var voices = window.speechSynthesis.getVoices();
