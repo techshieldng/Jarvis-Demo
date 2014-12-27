@@ -6,7 +6,7 @@ body{
 	width:1366 px;
 	height:768 px;
 	overflow:hidden;
-	background-image:url(../images/CarbonFiber_2.jpg);
+    /*background-image:url(../images/CarbonFiber_2.jpg);*/
 }
 
 .fauxBody,.fauxBody1,.fauxBody2{
@@ -157,7 +157,6 @@ ul{
 
 .sideBarUl li:hover{
 	cursor:pointer;
-	color:#fff;
 	background-image:url(../images/sideLiBGHover.png);
 }
 
