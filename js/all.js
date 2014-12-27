@@ -395,7 +395,7 @@ function bindButtons(){
 		animateFooterGraph(this);
 	});
 	
-	(document).keyup(function(e){
+	$(document).keyup(function(e){
 	  if (e.keyCode == 27) {
 		  $(".welcomeRing3").stop(true,true);
 		  $(".welcomeRing2").stop(true,true);
